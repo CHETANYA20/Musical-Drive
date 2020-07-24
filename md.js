@@ -78,6 +78,21 @@ $('#city li').click(function(){
 
     switch ($this.text())
     {
+        case 'Vrindavan':
+            player.loadVideoById('ZwWDaSTVe8E');
+            vid.href = 'https://www.youtube.com/watch?v=ZwWDaSTVe8E';
+            break;
+            
+        case 'Mohali':
+            player.loadVideoById('ZG8LHJU5Res');
+            vid.href = 'https://www.youtube.com/watch?v=ZG8LHJU5Res';
+            break;
+            
+        case 'Chandigarh':
+        	player.loadVideoById('QXwr8IKp4nk');
+        	vid.href = 'https://www.youtube.com/watch?v=QXwr8IKp4nk';         
+            break;
+            
         case 'Ahmedabad':
             player.loadVideoById('fnZn_UFm65M');
             vid.href = 'https://www.youtube.com/watch?v=fnZn_UFm65M';
@@ -91,11 +106,6 @@ $('#city li').click(function(){
         case 'Bhopal':
             player.loadVideoById('Ze-Sh0oAWLc');
             vid.href = 'https://www.youtube.com/watch?v=Ze-Sh0oAWLc';
-            break;
-
-        case 'Chandigarh':
-        	player.loadVideoById('QXwr8IKp4nk');
-        	vid.href = 'https://www.youtube.com/watch?v=QXwr8IKp4nk';         
             break;
 
 		case 'Chennai':
